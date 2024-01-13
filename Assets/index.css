@@ -1,41 +1,30 @@
-/* Header styling */
+/* Custom styles */
 .weather-header {
-    background-color: #FF1D58; /* Dark background color */
-    color: #fff; /* White text color */
+    background-color: #FF1D58;
+    color: #fff;
 }
 
-/* Body styling */
 body {
     font-family: 'Arial', sans-serif;
-    margin: 1px;
-    padding: 1px;
+    margin: 0px; /* Reset margin */
+    padding: 0px; /* Reset padding */
 }
 
 h1 {
-    font-size: 2em; /* Add a semicolon here */
+    font-size: 2em;
 }
 
-/* Search form & city list styling */
-.form {
-    /* Add any styling for the search form */
-}
-
-#city-list {
-    /* City list container */
-}
 
 #city-names {
     list-style: none;
-    padding: 1px;
-    margin: 1px;
+    padding: 0px; /* Reset padding */
+    margin: 0px; /* Reset margin */
 }
 
-/* Styles for a simple flex container */
 #my-container {
     display: flex;
 }
 
-/* Styles for the left and right columns in the flex container */
 .aside {
     flex: 30%;
     padding: 10px;
@@ -45,3 +34,5 @@ h1 {
     flex: 70%;
     padding: 10px;
 }
+
+
