@@ -1,0 +1,38 @@
+/* Custom styles */
+.weather-header {
+    background-color: #FF1D58;
+    color: #fff;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0px; /* Reset margin */
+    padding: 0px; /* Reset padding */
+}
+
+h1 {
+    font-size: 2em;
+}
+
+
+#city-names {
+    list-style: none;
+    padding: 0px; /* Reset padding */
+    margin: 0px; /* Reset margin */
+}
+
+#my-container {
+    display: flex;
+}
+
+.aside {
+    flex: 30%;
+    padding: 10px;
+}
+
+.main-content {
+    flex: 70%;
+    padding: 10px;
+}
+
+
